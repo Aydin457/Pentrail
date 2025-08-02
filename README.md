@@ -75,4 +75,4 @@ This tool is intended **only for use on systems you own or have explicit permiss
 ## 📬 Contact
 
 - 📧 Email: yasinovaydin@gmail.com  
-- 🔗 LinkedIn: [linkedin.com/in/aydın-yasinov](https://www.linkedin.com/in/aydın-yasinov/)
+- 🔗 Linkedin: [linkedin.com/in/aydın-yasinov](https://www.linkedin.com/in/aydın-yasinov/)
