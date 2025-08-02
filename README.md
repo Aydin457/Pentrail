@@ -1,16 +1,13 @@
-
 # 🛰️ Pentrail
 
-**Pentrail** — pentesterlər üçün yazılmış **modulyar və terminal əsaslı reconnaissance alətidir**. Bu alət ilkin kəşfiyyat mərhələlərini avtomatlaşdırır və genişlənə bilən arxitekturaya malikdir.
+**Pentrail** is a **modular, terminal-based reconnaissance tool** built for penetration testers. It automates early-stage recon tasks and is designed with extensibility and simplicity in mind.
 
+---
 
-
-
-
-## ✨ Xüsusiyyətlər
+## ✨ Features
 
 - 🔎 Subdomain Enumeration
-- 🌐 Port Scan
+- 🌐 Port Scanning
 - 📜 JavaScript Link Finder
 - 🧪 CORS Checker
 - 📁 Directory Enumeration
@@ -18,7 +15,7 @@
 
 ---
 
-## 🛠️ Quraşdırma
+## 🛠️ Installation
 
 ```bash
 git clone https://github.com/Aydin457/pentrail.git
@@ -26,13 +23,13 @@ cd pentrail
 chmod +x pentrail.py
 ```
 
-> Python 3.7+ tələb olunur.
+> Requires Python 3.7 or higher.
 
 ---
 
-## 🚀 İstifadə
+## 🚀 Usage
 
-Hər modulu ayrıca işlədə bilərsən:
+Each module can be run independently:
 
 ```bash
 python3 pentrail.py subenum -d example.com
@@ -43,13 +40,13 @@ python3 pentrail.py direnum -d example.com
 python3 pentrail.py whois -d example.com
 ```
 
-> `-d` parametrindən sonra target domeni qeyd etməyi unutma.
+> Don’t forget to specify the target domain with the `-d` flag.
 
 ---
 
-## 📂 Wordlist-lər
+## 📂 Wordlists
 
-Bu layihə istifadəçilərin **öz wordlistlərini** istifadə etmələrini nəzərdə tutur. İstəyə uyğun olaraq `--wordlist` flag-i ilə əlavə oluna bilər.
+Pentrail **does not include wordlists** by default. You are expected to supply your own using the `--wordlist` flag:
 
 ```bash
 python3 pentrail.py direnum -d example.com --wordlist /path/to/custom_wordlist.txt
@@ -59,17 +56,23 @@ python3 pentrail.py direnum -d example.com --wordlist /path/to/custom_wordlist.t
 
 ## 📄 License
 
-Bu layihə **Apache License 2.0** ilə lisenziyalanıb. Ətraflı məlumat üçün `LICENSE` faylına baxın.
+This project is licensed under the **Apache License 2.0**. See the `LICENSE` file for details.
 
 ---
 
-## 👨‍💻 Müəllif
+## 👨‍💻 Author
 
-Bu layihə [Aydın Yasinov](https://github.com/Aydin457) tərəfindən hazırlanıb.
+Developed by [Aydın Yasinov](https://github.com/Aydin457)
 
 ---
 
+## ⚠️ Disclaimer
 
-## 🧠 Qeyd
+This tool is intended **only for use on systems you own or have explicit permission to test**. Unauthorized use is strictly prohibited and is the sole responsibility of the user.
 
-Bu alət yalnız **təhlükəsizlik testləri üçün icazə verilmiş sistemlərdə** istifadə olunmalıdır. İcazəsiz istifadəyə görə məsuliyyət istifadəçiyə aiddir.
+---
+
+## 📬 Contact
+
+- 📧 Email: yasinovaydin@gmail.com  
+- 🔗 LinkedIn: [linkedin.com/in/aydın-yasinov](https://www.linkedin.com/in/aydın-yasinov/)
