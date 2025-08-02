@@ -21,7 +21,7 @@
 ## 🛠️ Quraşdırma
 
 ```bash
-git clone https://github.com/aydin-yasinov/pentrail.git
+git clone https://github.com/Aydin457/pentrail.git
 cd pentrail
 chmod +x pentrail.py
 ```
@@ -65,7 +65,7 @@ Bu layihə **Apache License 2.0** ilə lisenziyalanıb. Ətraflı məlumat üç�
 
 ## 👨‍💻 Müəllif
 
-Bu layihə [Aydın Yasinov](https://github.com/aydin-yasinov) tərəfindən hazırlanıb.
+Bu layihə [Aydın Yasinov](https://github.com/Aydin457) tərəfindən hazırlanıb.
 
 ---
 
