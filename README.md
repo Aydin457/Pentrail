@@ -32,15 +32,15 @@ chmod +x pentrail.py
 Each module can be run independently:
 
 ```bash
-python3 pentrail.py subenum -d example.com
-python3 pentrail.py portscan -d example.com
-python3 pentrail.py jsfinder -d example.com
-python3 pentrail.py cors -d example.com
-python3 pentrail.py direnum -d example.com
-python3 pentrail.py whois -d example.com
+python3 pentrail.py subenum -t example.com
+python3 pentrail.py portscan -t example.com
+python3 pentrail.py jsfinder -t example.com
+python3 pentrail.py cors -t example.com
+python3 pentrail.py direnum -t example.com
+python3 pentrail.py whois -t example.com
 ```
 
-> Don’t forget to specify the target domain with the `-d` flag.
+> Don’t forget to specify the target domain with the `-t` flag.
 
 ---
 
@@ -49,7 +49,7 @@ python3 pentrail.py whois -d example.com
 Pentrail **does not include wordlists** by default. You are expected to supply your own using the `--wordlist` flag:
 
 ```bash
-python3 pentrail.py direnum -d example.com --wordlist /path/to/custom_wordlist.txt
+python3 pentrail.py direnum -t example.com --wordlist /path/to/custom_wordlist.txt
 ```
 
 ---
