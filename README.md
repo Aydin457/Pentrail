@@ -32,12 +32,12 @@ chmod +x pentrail.py
 Each module can be run independently:
 
 ```bash
-python3 pentrail.py subenum -t example.com
-python3 pentrail.py portscan -t example.com
-python3 pentrail.py jsfinder -t example.com
-python3 pentrail.py cors -t example.com
-python3 pentrail.py direnum -t example.com
-python3 pentrail.py whois -t example.com
+python3 pentrail.py -m subenum -t example.com
+python3 pentrail.py -m portscan -t example.com
+python3 pentrail.py -m jsfinder -t example.com
+python3 pentrail.py -m cors -t example.com
+python3 pentrail.py -m direnum -t example.com
+python3 pentrail.py -m whois -t example.com
 ```
 
 > Don’t forget to specify the target domain with the `-t` flag.
